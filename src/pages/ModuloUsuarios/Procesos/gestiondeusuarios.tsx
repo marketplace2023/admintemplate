@@ -62,7 +62,7 @@ const GestionDeUsuarios = () => {
 
   return (
     <Layout>
-      <div className="grid grid-cols-4 gap-4">
+      <div className="grid grid-cols-3 gap-4">
         {cardData.map((data, index) => (
           <CardModules
             key={index}
